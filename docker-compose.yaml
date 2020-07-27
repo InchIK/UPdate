@@ -7,6 +7,7 @@ services:
             ROOT_PW: 1234
             USER_PW: 2345
       container_name: Update_Server
+      restart: always
       ports:  
          - 2022:2022
       volumes:  
